@@ -1,0 +1,20 @@
+{
+  "name": "leiden-communities",
+  "version": "1.0.0",
+  "description": "Leiden and Louvain community detection in zero dependency JavaScript: modularity and CPM, refinement with a connectivity guarantee, NMI/ARI, generators and a CLI.",
+  "main": "src/index.js",
+  "bin": {
+    "leiden": "bin/leiden.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "bench": "node examples/benchmark.js",
+    "bridge": "node examples/bridge.js",
+    "resolution": "node examples/resolution-limit.js"
+  },
+  "keywords": ["community-detection", "leiden", "louvain", "modularity", "graph", "clustering", "network-science"],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

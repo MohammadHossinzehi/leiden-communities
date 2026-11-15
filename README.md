@@ -15,7 +15,7 @@ Louvain is the algorithm most people reach for when they want to split a network
 
 Leiden fixes it by adding a **refinement phase** between local moving and aggregation. Each community is repartitioned from singletons into well connected sub communities, and the graph is aggregated on those, so the next level can still separate parts that do not belong together. The result is a guarantee that every community is connected (in fact γ connected), and in practice better quality in the same time.
 
-This repo implements all of that in about 500 lines of readable code, with tests that check the algorithm against exhaustive search, known optima and the guarantees from the paper.
+This repo implements all of that in about 750 lines of readable code, with tests that check the algorithm against exhaustive search, known optima and the guarantees from the paper.
 
 ## What is in it
 
